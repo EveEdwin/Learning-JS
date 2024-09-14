@@ -49,3 +49,48 @@ let numbersValue = 33;
 let stringNew = String(numbersValue);  //this really canges the number to a string value 
 console.log(stringNew);
 console.log(typeof(stringNew));
+
+
+
+// *********************** Operators ********************
+
+let a = 10;
+let b = 5;
+
+let sum = a + b;
+let negsum = -sum
+console.log(sum); // normal sum is here
+console.log(negsum); // negative sum is here
+
+
+// console.log(5+6);
+// console.log(5-6);
+// console.log(5*6);
+// console.log(5/6);
+// console.log(5**6);
+// console.log(5%6);
+
+// concatination of the strings
+
+let firstName = "Mohit";
+let lastName = "Singh";
+let fullName = firstName + " " + lastName;
+console.log(fullName);
+
+
+console.log("1" + 5); 
+console.log(1 + "5");
+console.log("1" + 2 + 2); // important for concept building         string jo first hai usme use kiya jayega 
+console.log(1 + 2 + "2");   // important for concept building
+
+
+console.log(typeof("1" + 5)); 
+console.log(typeof(1 + "5"));
+console.log(typeof("1" + 2 + 2));
+console.log(typeof(1 + 2 + "2"));
+
+// prefix and postfix study;
+
+let gameCounter = 1000;
+gameCounter++;
+console.log(gameCounter);
