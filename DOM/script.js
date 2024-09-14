@@ -43,3 +43,6 @@ variable.forEach(function(e){
 let listclass=document.getElementsByClassName("list")  // this is a HTML collection array v
 
 Array.from(listclass) // this is the way by which this element will convert this to an array from the HTML collection 
+
+
+// *********************************************************************************************
